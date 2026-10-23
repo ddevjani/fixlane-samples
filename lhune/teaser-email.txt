@@ -1,0 +1,37 @@
+Subject: lhune.com: Your product pages drop the codes that link ad clicks to sales
+
+FREE TEASER FOR LHUNE.COM
+
+A 4-minute look at speed and your product pages.
+
+We opened your home page and your 3 best sellers on an iPhone. 20 checks
+ran: 10 found problems (1 critical, 2 high, 6 medium, 1 low), 6 passed
+and 4 had no answer from outside.
+
+The 5 that matter most:
+1. Your product pages drop the codes that link ad clicks to sales
+[Critical]
+2. On a phone, shoppers have to scroll to find Add to Cart [High]
+3. Your product pages give a making or shipping time but no arrival date
+[Medium]
+4. Many of your products have few photos, best sellers included [Medium]
+5. Files at the top of your pages delay the first thing shoppers see
+[Medium]
+
+Each one is on your teaser page with what we saw, a screenshot or the
+measured numbers, and why it costs sales. The page also lists all 352
+checks the full audit runs.
+See the 5 in full: teaser.html
+
+THE FULL REPORT
+Full report $149 one time: every problem and its fix, written for your
+theme. Fixes from $99. Your report fee counts toward fixes for 30 days.
+Re-checks are free for 30 days. Full refund if nothing in it is worth
+fixing.
+Get the full report for $149: report.html
+
+--
+Fixlane read lhune.com from its public pages only, with no login and no
+store access. Nothing was added to a cart and no form was sent.
+{{postal_address}}
+Unsubscribe: {{unsubscribe_url}}
