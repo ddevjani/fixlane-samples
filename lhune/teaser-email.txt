@@ -15,8 +15,7 @@ The 5 that matter most:
 3. Your product pages give a making or shipping time but no arrival date
 [Medium]
 4. Many of your products have few photos, best sellers included [Medium]
-5. Files at the top of your pages delay the first thing shoppers see
-[Medium]
+5. Your product pages have no quick-pay button [Medium]
 
 Each one is on your teaser page with what we saw, a screenshot or the
 measured numbers, and why it costs sales. The page also lists all 352
