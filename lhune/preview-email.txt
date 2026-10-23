@@ -1,0 +1,107 @@
+Subject: Your lhune.com preview: 103 issues found, 7 with the fix
+
+FREE PREVIEW FOR LHUNE.COM
+
+We found 103 problems and 2 questions for you on lhune.com. Here are 7
+of the problems.
+
+You asked for a preview of lhune.com. We went through 35 pages on an
+iPhone and a desktop the way a shopper would, and checked 242 things
+from the outside. 110 more need your store connected, a real phone, or
+do not apply to your store. Here are 7 of the problems in full, then a
+count of everything else.
+
+Store score 76/100. 103 problems (1 critical, 11 high, 44 medium, 47 low), 2 questions. 137 checks passed.
+
+1. Your free shipping and free returns are hidden from shoppers deciding to buy [High, Product pages]
+You ship free and you pay for returns, but the only line about it near
+Add to Cart is hidden behind a Shipping tab. "Free shipping" is about a
+screen further down the page.
+What to do: Add one line under the button, for example "Free insured
+shipping. Free returns within 15 days." About 30 minutes, in the theme
+editor or by your developer.
+Full fix: preview.html#f-pdp-shipping-returns-missing
+
+2. On a phone, Add to Cart is below the first screen on every product page [High, Mobile]
+On all 14 product pages we checked, a phone shopper has to scroll to
+reach Add to Cart, and nothing follows them down the page.
+What to do: Put the price and Add to Cart in the bar that already sticks
+to the top of your product pages.
+Full fix: preview.html#f-pdp-atc-below-fold-mobile
+
+3. Your Live chat button sits on top of Check out and the pay buttons [High, Flows]
+On a phone, the green Live chat button covers a corner of Check out and
+most of the third pay button in your cart, and the round 15% off button
+can cover part of Shop Pay.
+What to do: Hide the chat button and the 15% off button on the cart page
+on phones.
+Full fix: preview.html#f-mobile-overlay-covers-atc
+
+4. Google and AI assistants cannot read your prices or stock from your product pages [Medium, Search engines and product data]
+Your customized theme lost the product details block, so Google and AI
+assistants cannot read your prices or stock. Your review app adds only
+the star rating.
+What to do: Add back Shopify's standard product details block, with your
+rating inside it. A small code change.
+Full fix: preview.html#f-seo-product-jsonld-missing
+
+5. AI assistants find two different return windows [Medium, AI shopping assistants]
+Your refund policy says 30 days; your returns page and product pages say
+15, which is right. Two pages also say you do not accept international
+orders, though you ship internationally.
+What to do: Paste one approved text on both pages: free returns within
+15 days, in the U.S. and internationally. We wrote it for you.
+Full fix: preview.html#f-ai-policy-facts-missing
+
+6. 76 of your 573 product photos have no description [Low, Accessibility]
+76 of your 573 product photos have no description for screen readers and
+image search, and 220 descriptions say "diamond" without "lab-grown".
+What to do: Add descriptions in Products, or let us write all of them
+for you to approve.
+Full fix: preview.html#f-a11y-images-missing-alt
+
+7. Your product pages erase the ad click code before Google and Meta can read it [Critical, Tracking and ads]
+Your home page keeps the click code an ad link carries. Your product
+pages erase it half a second after they open, so Google and Meta cannot
+link later sales to those ad clicks.
+What to do: One line in your theme keeps the code when the page adds the
+chosen option. About an hour for a developer.
+Full fix: preview.html#f-track-click-id-stripped
+
+EVERYTHING ELSE WE FOUND
+96 more problems. Their titles are on your preview page; the evidence
+and fixes are in the full report. Plus 2 questions only you can answer,
+also in the full report.
+- Speed: 10 (3 medium, 7 low)
+- Mobile: 9 (1 high, 2 medium, 6 low)
+- Product pages: 14 (1 high, 9 medium, 4 low)
+- Navigation and search: 10 (7 medium, 3 low)
+- Cart and checkout: 6 (1 high, 3 medium, 2 low)
+- Trust and policies: 16 (2 high, 7 medium, 7 low)
+- Offer and pricing: 1 (1 low)
+- Tracking and ads: 4 (1 high, 1 medium, 2 low)
+- Accessibility: 13 (2 high, 5 medium, 6 low)
+- Search engines and product data: 6 (1 medium, 5 low)
+- AI shopping assistants: 3 (1 medium, 2 low)
+- Apps and code: 2 (1 medium, 1 low)
+- Flows: 2 (2 medium)
+
+137 checks passed, including guest checkout, Shop Pay, PayPal, Google
+Pay and Venmo at checkout, one Google Analytics page view per normal
+visit, and pages Google and AI assistants can open.
+
+See your full preview: preview.html
+
+Full report $149 one time. Fixes from $99 (small $99, medium $199, large
+$349, everything $799). Your report fee counts toward fixes for 30 days.
+Re-checks are free for 30 days. Full refund if nothing in it is worth
+fixing.
+
+Questions? Reply to this email and a person will answer.
+The Fixlane team
+
+--
+You are getting this because you asked for a free preview of lhune.com
+on fixlane.app. We read public pages only. No login, no forms sent.
+{{postal_address}}
+Unsubscribe: {{unsubscribe_url}}

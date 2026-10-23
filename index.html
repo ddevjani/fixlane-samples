@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fixlane Sample Audits</title>
+<meta name="description" content="Sample Fixlane conversion audits for Shopify stores: the free preview, the preview email and the full report.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Funnel+Sans:wght@300..800&family=JetBrains+Mono:wght@400..600&display=swap">
+<style>
+  /* Fixlane tokens (design-system/tokens.css): white page, ink headings, brand blue, mono eyebrows. */
+  :root {
+    --ink: #0B0D12; --text: #2F3445; --muted: #5B6173; --line: #E6E8EF;
+    --surface: #F7F8FC; --tint: #E9EDFF; --brand: #3F51F5; --bg: #FFFFFF;
+    --display: 'Funnel Display', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --sans: 'Funnel Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 var(--sans); }
+  .wrap { max-width: 1104px; margin: 0 auto; padding: 40px max(16px, env(safe-area-inset-right, 0px)) 64px max(16px, env(safe-area-inset-left, 0px)); }
+  .brand { display: flex; align-items: center; gap: 10px; font: 700 20px/1 var(--display); color: var(--ink); letter-spacing: -0.02em; }
+  .brand svg { width: 28px; height: 28px; }
+  .eyebrow { font: 500 12px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--brand); margin: 56px 0 12px; }
+  h1 { font: 300 clamp(36px, 6vw, 64px)/1.05 var(--display); letter-spacing: -0.04em; color: var(--heading, #2A2E3D); margin: 0 0 16px; text-wrap: balance; }
+  h1 strong { font-weight: 800; color: var(--ink); }
+  .lede { max-width: 62ch; color: var(--muted); font-size: 18px; margin: 0 0 40px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .card { display: grid; gap: 10px; align-content: start; padding: 24px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); color: inherit; text-decoration: none; transition: border-color .15s, background .15s; }
+  .card:hover, .card:focus-visible { border-color: var(--brand); background: var(--tint); outline: none; }
+  .card .k { font: 500 12px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .card h2 { font: 700 22px/1.2 var(--display); letter-spacing: -0.02em; color: var(--ink); margin: 0; }
+  .card p { margin: 0; color: var(--muted); }
+  .card .go { font: 700 15px/1 var(--sans); color: var(--brand); margin-top: 6px; }
+  .note { margin-top: 40px; font: 13px/1.6 var(--mono); color: var(--muted); max-width: 80ch; }
+  @media (prefers-reduced-motion: reduce) { .card { transition: none; } }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="brand"><svg viewBox="0 0 28 28" aria-hidden="true"><rect width="28" height="28" rx="8" fill="#3F51F5"/><path d="M7.5 15.5l4.2 4.2L20.5 9" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Fixlane</div>
+
+  <p class="eyebrow">Sample audit: lhune.com</p>
+  <h1>See what a store owner gets. <strong>Then what their developer gets.</strong></h1>
+  <p class="lede">A Fixlane conversion audit of lhune.com, read from its public storefront on Oct 22, 2026. Every page has a Business view for the owner and a Tech view for the developer.</p>
+
+  <div class="grid">
+    <a class="card" href="lhune/preview-email.html">
+      <span class="k">Step 1: in the inbox</span>
+      <h2>The preview email</h2>
+      <p>What the owner receives about 15 minutes after typing in their store: 7 problems with fixes, plus counts of everything else.</p>
+      <span class="go">Open the email</span>
+    </a>
+    <a class="card" href="lhune/preview.html">
+      <span class="k">Step 2: free preview</span>
+      <h2>The preview page</h2>
+      <p>7 findings in full with screenshots and fixes, the titles of the other 98, what passed, and where the store sits against other Shopify stores.</p>
+      <span class="go">Open the preview</span>
+    </a>
+    <a class="card" href="lhune/report.html">
+      <span class="k">Step 3: $149 full report</span>
+      <h2>The full report</h2>
+      <p>All 103 findings and 2 questions, each with evidence, the exact fix and a re-check. Real-user speed data, and a dark Tech view with direct links to code and admin screens.</p>
+      <span class="go">Open the report</span>
+    </a>
+  </div>
+
+  <p class="note">Plain-text version of the email: <a href="lhune/preview-email.txt">preview-email.txt</a>. Public storefront only: no login, no store access, no forms sent. Speed data from the Chrome UX Report and PageSpeed Insights.</p>
+</main>
+</body>
+</html>
