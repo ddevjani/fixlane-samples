@@ -7,9 +7,9 @@ of the problems.
 
 You asked for a preview of lhune.com. We went through 35 pages on an
 iPhone and a desktop the way a shopper would, and checked 242 things
-from the outside. 110 more need your store connected, a real phone, or
-do not apply to your store. Here are 7 of the problems in full, then a
-count of everything else.
+from the outside. 110 more need your store connected or your answer, a
+test we could not run from outside, or do not apply to your store. Here
+are 7 of the problems in full, then a count of everything else.
 
 Store score 75/100. 103 problems (1 critical, 11 high, 44 medium, 47 low), 2 questions. 137 checks passed.
 
@@ -71,7 +71,8 @@ Full fix: preview.html#f-track-click-id-stripped
 EVERYTHING ELSE WE FOUND
 96 more problems. Their titles are on your preview page; the evidence
 and fixes are in the full report. Plus 2 questions only you can answer,
-also in the full report.
+also in the full report. The page also lists all 352 checks and where
+each one stands.
 - Speed: 10 (3 medium, 7 low)
 - Mobile: 9 (1 high, 2 medium, 6 low)
 - Product pages: 14 (1 high, 9 medium, 4 low)

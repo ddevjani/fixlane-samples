@@ -3089,6 +3089,47 @@ a.r-issue__rule:hover { text-decoration: underline; }
   .fl-codeblock__line { white-space: pre-wrap; }
 }
 
+/* The list of every check, grouped by area (teaser and preview; scripts/report-render.mjs checklistSection). */
+.t-checkstats { margin-bottom: var(--fl-space-24); }
+.t-tools { display: grid; gap: var(--fl-space-12); margin-bottom: var(--fl-space-16); }
+.t-tools__search { max-width: var(--fl-layout-col-main); }
+.t-tools__row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--fl-space-8) var(--fl-space-16); }
+.t-tools__showing { margin: 0; font-size: var(--fl-type-small-size); color: var(--fl-color-muted); }
+.t-area { scroll-margin-top: var(--fl-space-56); }
+.t-area__head { align-items: flex-start; }
+.t-area__main { flex: 1 1 auto; min-width: 0; display: grid; gap: var(--fl-space-4); }
+.t-area__count { margin-left: var(--fl-space-6); vertical-align: middle; }
+.t-area__protects { font-size: var(--fl-type-body-sm-size); color: var(--fl-color-text-secondary); }
+.t-area__mix { font-family: var(--fl-type-mono-caption-family); font-size: var(--fl-type-mono-caption-size); color: var(--fl-color-subtle); }
+.t-checks { list-style: none; margin: 0; padding: 0; }
+.t-check {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--fl-space-6) var(--fl-space-14);
+  padding: var(--fl-space-10) 0;
+  border-top: var(--fl-border-hairline) solid var(--fl-color-line);
+}
+.t-check:first-child { border-top: 0; }
+.t-check__title { flex: 1 1 var(--fl-layout-col-card); min-width: 0; font-size: var(--fl-type-body-sm-size); color: var(--fl-color-ink); }
+.t-check__note { display: block; margin-top: var(--fl-space-4); font-size: var(--fl-type-small-size); color: var(--fl-color-muted); }
+.t-check__status { flex: 0 0 auto; display: inline-flex; align-items: center; gap: var(--fl-space-8); }
+.t-status {
+  font-family: var(--fl-font-mono);
+  font-size: var(--fl-type-chip-size);
+  letter-spacing: var(--fl-tracking-status);
+  text-transform: uppercase;
+  color: var(--fl-color-subtle);
+}
+.t-status--found { color: var(--fl-color-danger-text); }
+.t-status--passed { color: var(--fl-color-success-text); }
+.t-status--open { color: var(--fl-color-amber-text); }
+.t-status--full { color: var(--fl-color-brand-ink); }
+.t-status--access { color: var(--fl-color-muted); }
+.t-status--question { color: var(--fl-color-amber-text); }
+.t-status--na { color: var(--fl-color-muted); }
+
 /* teaser-page.css: the free teaser page (teaser.html), on top of design-system/tokens.css, components.css and
    scripts/report-page.css. Tokens only: no literal colors, no px outside @media. Business view only. */
 
@@ -3187,44 +3228,6 @@ a.r-issue__rule:hover { text-decoration: underline; }
 .t-speed .fl-callout p { margin: 0; }
 .t-more { margin-top: var(--fl-space-8); }
 .t-more__note { font-weight: var(--fl-weight-regular); color: var(--fl-color-muted); }
-
-/* ---- every check ---- */
-.t-checkstats { margin-bottom: var(--fl-space-24); }
-.t-tools { display: grid; gap: var(--fl-space-12); margin-bottom: var(--fl-space-16); }
-.t-tools__search { max-width: var(--fl-layout-col-main); }
-.t-tools__row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--fl-space-8) var(--fl-space-16); }
-.t-tools__showing { margin: 0; font-size: var(--fl-type-small-size); color: var(--fl-color-muted); }
-.t-area { scroll-margin-top: var(--fl-space-56); }
-.t-area__head { align-items: flex-start; }
-.t-area__main { flex: 1 1 auto; min-width: 0; display: grid; gap: var(--fl-space-4); }
-.t-area__count { margin-left: var(--fl-space-6); vertical-align: middle; }
-.t-area__protects { font-size: var(--fl-type-body-sm-size); color: var(--fl-color-text-secondary); }
-.t-area__mix { font-family: var(--fl-type-mono-caption-family); font-size: var(--fl-type-mono-caption-size); color: var(--fl-color-subtle); }
-.t-checks { list-style: none; margin: 0; padding: 0; }
-.t-check {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--fl-space-6) var(--fl-space-14);
-  padding: var(--fl-space-10) 0;
-  border-top: var(--fl-border-hairline) solid var(--fl-color-line);
-}
-.t-check:first-child { border-top: 0; }
-.t-check__title { flex: 1 1 var(--fl-layout-col-card); min-width: 0; font-size: var(--fl-type-body-sm-size); color: var(--fl-color-ink); }
-.t-check__status { flex: 0 0 auto; display: inline-flex; align-items: center; gap: var(--fl-space-8); }
-.t-status {
-  font-family: var(--fl-font-mono);
-  font-size: var(--fl-type-chip-size);
-  letter-spacing: var(--fl-tracking-status);
-  text-transform: uppercase;
-  color: var(--fl-color-subtle);
-}
-.t-status--found { color: var(--fl-color-danger-text); }
-.t-status--passed { color: var(--fl-color-success-text); }
-.t-status--open { color: var(--fl-color-amber-text); }
-.t-status--full { color: var(--fl-color-brand-ink); }
-.t-status--access { color: var(--fl-color-muted); }
 
 /* ---- the offer ---- */
 .t-plan__note { margin: var(--fl-space-10) 0 0; font-size: var(--fl-type-small-size); color: var(--fl-color-muted); }
@@ -3349,7 +3352,7 @@ a.r-issue__rule:hover { text-decoration: underline; }
       <div class="fl-stat"><div class="fl-stat__label">With store access</div><div class="fl-stat__row"><span class="fl-stat__value">44</span></div><div class="fl-stat__sub">When you connect your store</div></div>
     </div>
     <div class="t-tools">
-      <div class="fl-search t-tools__search"><svg class="fl-search__icon" viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="5.5"></circle><path d="M13.5 13.5L17 17"></path></svg><label class="fl-sr-only" for="t-check-search">Search the checks</label><input id="t-check-search" class="fl-search__input" type="search" placeholder="Search the checks, for example reviews or shipping" data-check-search autocomplete="off"></div>
+      <div class="fl-search t-tools__search"><svg class="fl-search__icon" viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="5.5"></circle><path d="M13.5 13.5L17 17"></path></svg><label class="fl-sr-only" for="t-check-search">Search the checks</label><input id="t-check-search" class="fl-search__input" type="search" placeholder="Search, for example shipping" data-check-search autocomplete="off"></div>
       <div class="fl-filters" role="group" aria-label="Show checks"><button type="button" class="fl-filter" data-check-filter="all" aria-pressed="true">All checks <span class="fl-filter__count">352</span></button><button type="button" class="fl-filter" data-check-filter="teaser" aria-pressed="false">Run today <span class="fl-filter__count">20</span></button><button type="button" class="fl-filter" data-check-filter="full" aria-pressed="false">Full audit <span class="fl-filter__count">288</span></button><button type="button" class="fl-filter" data-check-filter="access" aria-pressed="false">Needs store access <span class="fl-filter__count">44</span></button></div>
       <div class="t-tools__row"><p class="t-tools__showing" data-check-showing aria-live="polite">Showing all 352 checks</p><button type="button" class="fl-btn fl-btn--text" data-check-toggle-all aria-expanded="false">Open every area</button></div>
     </div>
@@ -3856,7 +3859,8 @@ a.r-issue__rule:hover { text-decoration: underline; }
   areas.forEach((a) => a.addEventListener('toggle', paintToggle));
   if (toggleAll) toggleAll.addEventListener('click', () => {
     const open = !visibleAreas().every((a) => a.open);
-    visibleAreas().forEach((a) => { a.open = open; });
+    // Closing closes every area, so ones a search opened do not come back open when the filter changes.
+    (open ? visibleAreas() : areas).forEach((a) => { a.open = open; });
     paintToggle();
   });
   apply();
