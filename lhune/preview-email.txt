@@ -11,7 +11,7 @@ from the outside. 110 more need your store connected, a real phone, or
 do not apply to your store. Here are 7 of the problems in full, then a
 count of everything else.
 
-Store score 76/100. 103 problems (1 critical, 11 high, 44 medium, 47 low), 2 questions. 137 checks passed.
+Store score 75/100. 103 problems (1 critical, 11 high, 44 medium, 47 low), 2 questions. 137 checks passed.
 
 1. Your free shipping and free returns are hidden from shoppers deciding to buy [High, Product pages]
 You ship free and you pay for returns, but the only line about it near
@@ -41,8 +41,8 @@ Full fix: preview.html#f-mobile-overlay-covers-atc
 Your customized theme lost the product details block, so Google and AI
 assistants cannot read your prices or stock. Your review app adds only
 the star rating.
-What to do: Add back Shopify's standard product details block, with your
-rating inside it. A small code change.
+What to do: Add back a complete product details block, with your rating
+inside it. A small code change.
 Full fix: preview.html#f-seo-product-jsonld-missing
 
 5. AI assistants find two different return windows [Medium, AI shopping assistants]
